@@ -91,7 +91,7 @@ Make_size_plot <- function(Set_size_data, sbar_color, ratios, ylabel, scale_sets
                 + coord_flip())
   
   if(set_size.show == TRUE){
-    Size_plot <- (Size_plot + geom_text(aes(label=y,vjust=0.5,hjust=-2, angle = set_size_angle),colour="white", size=num.size))
+    Size_plot <- (Size_plot + geom_text(aes(label=y,vjust=0.5,hjust=-3.5, angle = set_size_angle),colour="white", size=num.size))
   }
     
   if(scale_sets == "log10"){
